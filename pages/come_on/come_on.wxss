@@ -1,0 +1,26 @@
+/* pages/new/new.wxss */
+.box3{
+  font-size: 30px;
+  text-align: center;
+  font-family: cursive;
+}
+.img4{
+   width: 373px;
+  height: 320px;
+  border-radius: 20px;
+  border: 1px solid black
+}
+.box4{
+  height: 40px;
+  width: 372px;
+  font-family: cursive;
+  text-align: center;
+  font-size: 35px;
+  background-color: powderblue;
+  border-radius: 8px;
+  border: 1px solid black
+}
+.box5{
+  font-size: 30px;
+  font-family: cursive;
+}

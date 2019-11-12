@@ -1,0 +1,6 @@
+<!--pages/mm/mm.wxml-->
+<text>pages/mm/mm.wxml</text>
+
+<view>秘密：{{mimi}}</view>
+<view>心情：{{xq}}</view>
+<view>情感：{{qg}}</view>

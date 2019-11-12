@@ -1,0 +1,5 @@
+<!--pages/yuanwang/yuanwang.wxml-->
+<!-- <text>pages/yuanwang/yuanwang.wxml</text> -->
+<view>一月后的愿望：{{wish1}}</view>
+<view>一年后的愿望：{{wish2}}</view>
+<view>十年后的愿望：{{wish3}}</view>

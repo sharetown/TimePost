@@ -1,0 +1,8 @@
+<text>pages/jou/jou.wxml</text>
+<view class='kongbai'></view>
+<view wx:key="key" wx:for='{{infor}}'>
+  <view class='box'>
+      <view class='jou'>{{item.gong}}</view>
+  </view>
+  <view class='kongbai'></view>
+</view>

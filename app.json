@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/friend/friend",
+    "pages/friendhome/friendhome",
+    "pages/myself/myself",
+    "pages/set/set",
+    "pages/logs/logs",
+    "pages/collect/collect",
+    "pages/insert/insert",
+    "pages/my_days/my_days",
+    "pages/wishingwell/wishingwell",
+    "pages/come_on/come_on",
+    "pages/about_us/about_us",
+    "pages/problem/problem",
+    "pages/help/help",
+    "pages/my_emil/my_emil",
+    "pages/jou/jou",
+    "pages/yuanwang/yuanwang",
+    "pages/mm/mm"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "主页",
+        "iconPath": "imgs/home.png",
+        "selectedIconPath": "imgs/home1.png"
+      },
+      {
+        "pagePath": "pages/friend/friend",
+        "text": "好友列表",
+        "iconPath": "imgs/friend.png",
+        "selectedIconPath": "imgs/friend1.png"
+      },
+      {
+        "pagePath": "pages/myself/myself",
+        "text": "个人中心",
+        "iconPath": "imgs/myself.png",
+        "selectedIconPath": "imgs/myself1.png"
+      },
+      {
+        "pagePath": "pages/set/set",
+        "text": "设置",
+        "iconPath": "imgs/set.png",
+        "selectedIconPath": "imgs/set1.png"
+      }
+    ],
+    "color": "#f0b072",
+    "selectedColor": "#4e8ef7",
+    "backgroundColor": "#f6f6f6",
+    "borderStyle": "white"
+  }
+}

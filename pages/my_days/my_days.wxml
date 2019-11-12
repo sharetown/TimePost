@@ -1,0 +1,10 @@
+<!--pages/my_days/my_days.wxml-->
+<view class='daohang'>
+  <view class='lo' bindtap='home'>
+    <image class='e' src='{{logo}}'></image>
+  </view>
+  <view class='tou a' bindtap='run'>{{name1}}</view>
+  <view class='tou b' bindtap='wishingwell'>{{name2}}</view>
+  <view class='tou c'>{{name3}}</view>
+</view>
+<view>{{key}}</view>

@@ -1,0 +1,13 @@
+<!--pages/set/set.wxml-->
+<view class='touxiang'>
+<view class='im'>
+  <image class="avatar" src='{{userInfo.avatarUrl}}'></image>
+  <text class="nickname">{{userInfo.nickName}}</text>
+</view>
+</view>
+<view class='kongge'></view>
+<view class='box'>
+<view class='line' bindtap='about_us'>关于我们</view>
+<view class='line' bindtap='problem'>常见问题</view>
+<view class='line' bindtap='help'>帮助</view>
+</view>

@@ -1,0 +1,21 @@
+<view class='container'>
+  <form bindsubmit='submit'>
+    <view class='row'>
+      <text>姓名:</text>
+      <input type='text' name='name' placeholder='请输入姓名：例如张三' value='{{name}}' />
+    </view>
+    <view class='row'>
+      <text>邮箱:</text>
+      <input type='text' name='emil' placeholder='请输入邮箱：例如123@163.com' value='{{emil}}' />
+    </view>
+    <view class='huo'>
+      <view class='bao'>
+        <button form-type='submit' type='primary'>保存</button>
+      </view>
+    </view>
+  </form>
+</view>
+
+<view>您输入的姓名是：{{name}}</view>
+<view>您输入的邮箱：{{emil}}</view>
+

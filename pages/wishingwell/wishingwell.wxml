@@ -1,0 +1,33 @@
+<!--pages/wishingwell/wishingwell.wxml-->
+<view class='daohang'>
+  <view class='lo' bindtap='home'>
+    <image class='e' src='{{logo}}'></image>
+  </view>
+  <view class='tou a' bindtap='run'>{{name1}}</view>
+  <view class='tou b' bindtap='wishingwell'>{{name2}}</view>
+  <view class='tou c' bindtap='shudong'>{{name3}}</view>
+</view>
+<view class='box'>
+<form bindsubmit='submit'>
+  <!-- <image class='img2' src='http://img1.imgtn.bdimg.com/it/u=1995978378,3156948809&fm=26&gp=0.jpg'></image> -->
+  <text>{{name}}</text>
+  <view>
+    <textarea class='input1' bindinput='formName1' name='a' value='{{a}}'></textarea>
+  </view>
+  <text>{{nam1}}</text>
+  <view>
+    <textarea class='input1' bindinput='formName2' name='b' value='{{b}}'></textarea>
+  </view>
+  <text>{{nam2}}</text>
+  <view>
+    <textarea class='input1' bindinput='formName3' name='c' value='{{c}}'></textarea>
+    <view bindtap='goto'>
+      <button form-type='submit' type='primary'>点击保存</button>
+    </view>
+    <image class='img2' src='http://img1.imgtn.bdimg.com/it/u=1995978378,3156948809&fm=26&gp=0.jpg'></image>
+  </view>
+  <view class='box1'>
+    <view type='primary'>努力实现你的愿望吧！</view>
+  </view>
+  </form>
+</view>

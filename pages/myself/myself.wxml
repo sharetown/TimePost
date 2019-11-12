@@ -1,0 +1,17 @@
+<!--pages/myself/myself.wxml-->
+<view class='touxiang'>
+<view class='im'>
+  <image class="avatar" src='{{userInfo.avatarUrl}}'></image>
+  <view class="nickname">{{userInfo.nickName}}</view>
+</view>
+</view>
+<view class='kongge'></view>
+<view class='box'>
+<navigator class='frienditrm' url='../my_days/my_days'><view class='line'>优秀文章收藏
+</view>
+</navigator>
+<view class='line' bindtap='my_emil'>我的邮件</view>
+<view class='line' bindtap='jou'>公开信</view>
+<view class='line' bindtap='mm'>我的秘密</view>
+<view class='line' bindtap='yuanwang'>我的愿望</view>
+</view>

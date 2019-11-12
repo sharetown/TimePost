@@ -1,0 +1,7 @@
+<!--pages/my_emil/my_emil.wxml-->
+<!-- <text>pages/my_emil/my_emil.wxml</text> -->
+
+<view>姓名：{{emil1}}</view>
+<view>邮箱：{{emil2}}</view>
+<view>发件时间：{{emil3}}</view>
+<view>内容：{{emil4}}</view>

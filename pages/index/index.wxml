@@ -1,0 +1,3 @@
+<view class='box'>
+<view bindtap='herf'>树洞</view>
+</view>

@@ -1,0 +1,16 @@
+<!--pages/collect/collect.wxml-->
+<view class='daohang'>
+  <view class='lo' bindtap='home'>
+    <image class='e' src='{{logo}}'></image>
+  </view>
+  <view class='tou a' bindtap='run'>{{name1}}</view>
+  <view class='tou b' bindtap='wishingwell'>{{name2}}</view>
+  <view class='tou c'>{{name3}}</view>
+</view>
+
+<view>{{wen}}</view>
+<view class='huo'>
+  <navigator  class='frienditrm' url='../my_days/my_days?meiwen={{wen}}'>
+    <view class='baocun' bindtap='fun'>收藏</view>
+  </navigator>
+</view>

@@ -1,0 +1,11 @@
+<form bindsubmit='submit'>
+<view class='flex1'>
+<view class='box'><image class='box2' src='../../imgs/11.png'></image></view>
+<view class='box1'><text>{{name1}}</text>
+<textarea class='input' name='xingqing' value='{{xingqing}}'></textarea>
+</view>
+</view>
+<view class='b4' bindtap='goto'>
+<button type='primary' form-type='submit'>点击保存</button>
+</view>
+</form>

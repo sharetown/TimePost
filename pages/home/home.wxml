@@ -1,0 +1,34 @@
+<view class='daohang'>
+  <view class='lo' bindtap='home'>
+    <image class='e' src='{{logo}}'></image>
+  </view>
+  <view class='tou a' bindtap='run'>{{name1}}</view>
+  <view class='tou b' bindtap='wishingwell'>{{name2}}</view>
+  <view class='tou c' bindtap='shudong'>{{name3}}</view>
+</view>
+
+<view class='logo'>
+  <view class='time'>{{time}}</view>
+  <view class='name'>{{name}}</view>
+</view>
+
+<view class='Journal'>
+  <view>优秀美文日志推荐 》》</view>
+</view>
+<view class='kongbai'></view>
+<view wx:key="key" wx:for='{{beatuifull}}'>
+  <view class='box'>
+    <navigator class='frienditrm' url='../collect/collect?wen={{item.wen}}'>
+      <view class='jou'>{{item.wen}}</view>
+    </navigator>
+  </view>
+  <view class='kongbai'></view>
+</view>
+
+
+
+<view class='di'>
+  <view class='xinxi'>
+    <view class='neirong'>Created by poisonbian - Copyright © 2019--- 黔南师院17数信-2</view>
+  </view>
+</view>

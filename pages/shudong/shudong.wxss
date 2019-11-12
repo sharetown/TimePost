@@ -1,0 +1,62 @@
+.daohang{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: rgba(78, 70, 73, 0.966)
+}
+.a{
+  width: 18%;
+  text-align: right
+}
+.bb{
+  width: 14%
+}
+.c{
+  width: 30%
+}
+.tou{
+  height: 25px;
+  color: white;
+}
+.lo{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.e{
+  width: 50px;
+  height: 50px;
+}
+.b1{
+  background-color: rgba(16, 123, 223, 0.952);
+  text-align: center;
+  width: 100%;
+  height: 50;
+}
+.b2{
+  font-size: 25px;
+  width: 200px;
+  background-color: rgba(7, 116, 65, 0.856);
+}
+.b4{
+  width: 100%;
+  height: 10px;
+}
+.b3{
+  width: 100%;
+  height: 150px;
+}
+.b{
+  width: 100%;
+  height: 200px;
+}
+.img{
+  width: 100%;
+  height: 200px;
+}
+.b5{
+  color: red;
+}

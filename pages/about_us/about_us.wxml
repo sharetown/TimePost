@@ -1,0 +1,11 @@
+<!--pages/about_us/about_us.wxml-->
+<view>
+<image class='img' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573209679538&di=8d6541c5f6eaa106a83c3e432e255601&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20180203%2Fe625386b81894dcda2c5309d0eb5abde.jpeg'> </image>
+</view>
+<view class='title'>给未来的自己写一封信，问问当初的梦想是否还在坚持；给未来的爱人写一封信，让她/他看到你亘古不变的爱恋——仅以此小程序致敬《时光邮局》的创始人。</view>
+
+<view class='di'>
+  <view class='xinxi'>
+    <view class='neirong'>Created by poisonbian - Copyright © 2019--- 黔南师院17数信-实训第2小组</view>
+  </view>
+</view>

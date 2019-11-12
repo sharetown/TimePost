@@ -1,0 +1,14 @@
+.b4{
+  width: 100%;
+  height: 10px;
+}
+.b{
+  width: 100%;
+  height: 200px;
+}
+.b1{
+  text-align: center;
+  width: 100%;
+  height: 26px;
+  background-color: rgba(55, 52, 218, 0.904);
+}

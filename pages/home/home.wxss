@@ -1,0 +1,89 @@
+/* pages/home/home.wxss */
+.daohang{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: rgba(78, 70, 73, 0.966)
+}
+.a{
+  width: 18%;
+  text-align: right
+}
+.b{
+  width: 14%
+}
+.c{
+  width: 30%
+}
+.tou{
+  height: 25px;
+  color: white;
+}
+.lo{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.e{
+  width: 50px;
+  height: 50px;
+}
+
+.logo{
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url(https://www.hi2future.com/Public/me2me/image/header.jpg)
+}
+.name{
+  width: 145px;
+  font-size: 32px;
+  color: white
+}
+.time{
+  width: 220px;
+  height: 23px;
+  font-size: 20px;
+  color: white
+}
+.Journal{
+  height: 50px;
+  font-size: 24px;
+  color: white;
+  display: flex;
+  align-items: center;
+  background-color: rgba(78, 70, 73, 0.966)
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jou{
+  border-radius: 30px;
+  border: 1px solid rgb(138, 178, 229);
+}
+.kongbai{
+  height: 20px
+}
+
+.di{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 246, 247)
+}
+.xinxi{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.neirong{
+  font-size: 10px
+}

@@ -1,0 +1,33 @@
+/* pages/my_days/my_days.wxss */
+.daohang{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: rgba(78, 70, 73, 0.966)
+}
+.a{
+  width: 18%;
+  text-align: right
+}
+.b{
+  width: 14%
+}
+.c{
+  width: 30%
+}
+.tou{
+  height: 25px;
+  color: white;
+}
+.lo{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.e{
+  width: 50px;
+  height: 50px;
+}

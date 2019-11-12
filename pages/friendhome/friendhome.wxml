@@ -1,0 +1,20 @@
+<!--pages/friendhome/friendhome.wxml-->
+<view class='tou'>
+  <view class='name'>{{name}}</view>
+</view>
+<view class='title'>
+  <view class='tle'>
+    <view class='tle1 tleft' bindtap='tleft'>{{type1}}</view>
+    <view class='tle1 tright' bindtap='tright'>{{type2}}</view>
+  </view>
+</view>
+
+<view>{{type}}</view>
+<view class='centent'>
+  <view class='line one'>
+    <view class='emil '>{{infor}}</view>
+  </view>
+  <view class='line two'>
+    <view class='emil '>{{infor}}</view>
+  </view>
+</view>

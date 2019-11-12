@@ -1,0 +1,14 @@
+<form bindsubmit='submit'>
+  <view class='flex2'>
+    <view class='box'>
+      <image class='box2' src='../../imgs/12.jpg'></image>
+    </view>
+    <view class='box1'>
+      <text>{{name}}</text>
+      <textarea class='input' name='inform' value='{{inform}}'></textarea>
+    </view>
+  </view>
+  <view class='b4' bindtap='goto'>
+  <button type='primary' form-type='submit' bindtap='herf'>点击保存</button>
+  </view>
+</form>

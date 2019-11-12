@@ -1,0 +1,13 @@
+/* pages/jou/jou.wxss */
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jou{
+  border-radius: 30px;
+  border: 1px solid rgb(138, 178, 229);
+}
+.kongbai{
+  height: 20px
+}

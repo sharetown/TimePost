@@ -1,0 +1,8 @@
+<!--pages/new/new.wxml-->
+<view>
+<text class='box3'>{{nam3}}
+</text>
+<view class='box5'>{{nam4}}</view>
+<image class='img4' src='http://img0.imgtn.bdimg.com/it/u=358020630,1832808030&fm=26&gp=0.jpg'></image>
+<view class='box4'>加油，陌生人！</view>
+</view>

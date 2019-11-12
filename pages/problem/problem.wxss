@@ -1,0 +1,7 @@
+/* pages/problem/problem.wxss */
+.title{
+  font-size: 20px
+}
+.neirong{
+  font-size: 14px
+}

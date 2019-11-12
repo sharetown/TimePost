@@ -1,0 +1,57 @@
+<view class='daohang'>
+  <view class='lo' bindtap='home'>
+    <image class='e' src='{{logo}}'></image>
+  </view>
+  <view class='tou a' bindtap='run'>{{name1}}</view>
+  <view class='tou b' bindtap='wishingwell'>{{name2}}</view>
+  <view class='tou c' bindtap='shudong'>{{name3}}</view>
+</view>
+
+<view class='flex'>
+<form bindsubmit='submit'>
+<view class='t1'><text class='name1'>{{name}}</text></view>
+
+<view >
+<image class='img1' src='../../imgs/2.jpg'></image>
+</view>
+
+<view class='item'>
+
+<text  class='name' >你的姓名：</text>
+<input bindinput='formName2' name='input2' value='{{input2}}' class='input1'  placeholder='填写姓名,将在邮件标题中实现'></input>
+</view>
+
+<view class='item'>
+<text class='name'>收件邮箱：</text>
+<input bindinput='formName0' name='input0' value='{{input0}}' class='input1'  placeholder='填写邮箱，形如abc@123.com'></input>
+</view>
+
+<view class='item'>
+<text  class='name'>发信时间：</text>
+<input bindinput='formName1' name='input1' value='{{input1}}' class='input1'  placeholder='形如 2019-11-5  17：19'></input>
+</view>
+
+<view class='item1' >
+<textarea class='input' bindinput='formName3' name='input3' value='{{input3}}'  placeholder='  请输入内容，可以是你自己或是任何一个你想倾诉的对象' ></textarea>
+</view>
+
+<view class='item2' bindtap='goto' >
+<button bindtap='href' form-type='submit' type='primary'>确认发送</button>
+<button bindtap='href1' form-type='submit' type='primary'>加载草稿</button>
+</view>
+
+
+<view bindtap='href2' class='item3'>
+
+<view wx:for='{{imgs}}'>
+<image class='tu' src='{{item.src}}'></image>
+</view>
+
+
+</view>
+
+</form>
+</view>
+
+
+

@@ -1,0 +1,33 @@
+/* pages/myself/myself.wxss */
+.touxiang{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center
+}
+.im{
+  width: 200px;
+  height: 200px;
+  text-align: center
+}
+.avatar{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.kongge{
+  height: 50px
+}
+
+.box{
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.line{
+  width: 250px;
+  height: 40px;
+  border-bottom: 5px solid #ddd;
+}

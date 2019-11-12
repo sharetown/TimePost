@@ -1,0 +1,96 @@
+/* pages/newemail/newemail.wxss */
+.daohang{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: rgba(78, 70, 73, 0.966)
+}
+.a{
+  width: 18%;
+  text-align: right
+}
+.b{
+  width: 14%
+}
+.c{
+  width: 30%
+}
+.tou{
+  height: 25px;
+  color: white;
+}
+.lo{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.e{
+  width: 50px;
+  height: 50px;
+}
+.flex{
+  height: 600px;
+  width: 100%;
+  background-color:ivory;
+}
+.item{
+  display: flex;
+  height: 50px;
+  width: 100%;
+ 
+}
+.img1{
+    height: 180px;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 5%;
+}
+.name{
+  width: 30%;
+  text-align: right;
+  font-size: 17px
+}
+.input1{
+  border: 1px solid rgb(0, 183, 255);
+  border-radius: 7%;
+  width: 65%;
+  height: 10px；
+}
+.item1{
+  display: flex;
+  height: 150px;
+  width: 100%;
+  background-color: white
+}
+.input{
+  border: 1px solid rgb(0, 162, 255);
+  border-radius: 6%;
+  width: 100%;
+  height: 150px;
+  }
+  .item2{
+    height: 100px
+  }
+  .name1{
+  font-size: 15px;
+  font-style: italic;
+  color: red;
+  }
+  .t1{
+    text-align: center;
+   
+  }
+  .item3{
+    height: 8px;
+    width: 70%;
+    display: flex
+  }
+  .tu{
+    border-radius: 20%;
+    height: 30px;
+    width: 30px;
+    padding: 5px
+  }

@@ -1,0 +1,48 @@
+<view class='daohang'>
+  <view class='lo' bindtap='home'>
+    <image class='e' src='{{logo}}'></image>
+  </view>
+  <view class='tou a' bindtap='run'>{{name1}}</view>
+  <view class='tou bb' bindtap='wishingwell'>{{name2}}</view>
+  <view class='tou c' bindtap='shudong'>{{name3}}</view>
+</view>
+
+<view class='b1'>今天想对树洞说的话</view>
+<swiper autoplay interval='2000' circular indicator-dots>
+<swiper-item>
+<image class='img' src='../../imgs/111.jpg'></image>
+</swiper-item>
+<swiper-item>
+<image class='img' src='../../imgs/123.jpg'></image>
+</swiper-item>
+<swiper-item>
+<image class='img' src='../../imgs/321.jpg'></image>
+</swiper-item>
+<swiper-item><image class='img' src='../../imgs/333.jpg'></image>
+</swiper-item>
+<swiper-item><image class='img' src='../../imgs/sd.jpg'></image>
+</swiper-item>
+</swiper>
+
+<view>
+<view class='b4'></view>
+<view class='b2'>你可以对树洞说：</view>
+<view class='b4'></view>
+<view class='b3'>我羞答答的站在超市门口，看见了你，秀气的小脸，心里感到一丝丝温暖。我承认喜欢你，但是我永远也不会亲口告诉你，不可言传，只可意会 。此生能被我喜欢是你不可多得的福气，我喜欢你，是我不可言传的秘密。</view>
+<image class='b' src='../../imgs/55.jpg'></image>
+<view class='b5' bindtap='herf1'>点击向我分享吧!--->>秘密</view>
+</view>
+<view>
+<view class='b4'></view>
+<view class='b3'>1，清风吹来一片树叶，我带不走。是离去，还是挽留?深情总被欺负，抛开木讷得等候，与悲伤携手，与孤独白头。2，这辈子有幸遇见你，让我知道原来你上辈子就在我心里那么重要。</view>
+<image class='b' src='../../imgs/444.jpg'></image>
+<view class='b5' bindtap='herf2'>点击向我分享吧!--->>心情</view>
+</view>
+
+<view>
+<view class='b4'></view>
+<view class='b3'>1，爱一个人，就是在拨通电话时，忽然不知道要说什么，才知道，原来只是想听听那熟悉的声音
+2，我想和你在一起，却也只是想想而已了3，爱情没能两情相悦，必然会有一个人沦落荒野。</view>
+<image class='b' src='../../imgs/uu.jpg'></image>
+<view class='b5' bindtap='herf3'>点击向我分享吧！--->>情感</view>
+</view>
